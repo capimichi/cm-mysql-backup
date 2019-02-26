@@ -1,0 +1,6 @@
+db_host: 'localhost'
+db_user: 'root'
+db_password: 'root'
+db_port: '3306'
+backup_dir: '/etc/backup/cm-mysql'
+db_names: []
