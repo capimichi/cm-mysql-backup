@@ -1,12 +1,17 @@
 {
-    "name": "capimichi/cm-mysql-backup",
-    "authors": [
-        {
-            "name": "michele",
-            "email": "capimichi@gmail.com"
-        }
-    ],
-    "require": {
-        "symfony/yaml": "^4.2"
+  "name": "capimichi/cm-mysql-backup",
+  "authors": [
+    {
+      "name": "michele",
+      "email": "capimichi@gmail.com"
     }
+  ],
+  "require": {
+    "symfony/yaml": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CmMysqlBackup\\": "src/"
+    }
+  }
 }

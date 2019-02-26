@@ -2,5 +2,7 @@ db_host: 'localhost'
 db_user: 'root'
 db_password: 'root'
 db_port: '3306'
+max_days: 10
 backup_dir: '/etc/backup/cm-mysql'
+mysqldump_path: '/usr/bin/mysqldump'
 db_names: []
